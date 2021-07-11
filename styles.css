@@ -1,0 +1,224 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+
+*, *::before, *::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    user-select: none;
+}
+
+body {
+    height: 100%;
+    font-family: 'Poppins';
+    white-space: nowrap;
+}
+
+.navbar1{
+    width: 1000px;
+    margin: 0 auto;
+    background-color: black;
+    color: #fff;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.navbar1-wrap{
+    width: 100%;
+    background-color: black;
+}
+
+.navbar1 h3 {
+    font-size: 20px;
+}
+
+.navbar1 ul {
+    list-style-type: none;
+    display: flex;
+}
+
+.navbar1 li {
+    padding: 10px;
+    margin-right: 10px;
+}
+
+.navbar2 {
+    width: 100%;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 200px;
+    font-weight: bold;
+    border-bottom: 3px solid #ccc;
+}
+
+.navbar2-container{
+    max-width: 1200px;
+}
+
+.navbar2-up {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.navbar2-up img {
+    max-width: 300px;
+    max-height: 200px;
+}
+
+.navbar2-up input {
+    width: 500px;
+    height: 50px;
+    margin: 0px 40px;
+    border-radius: 15px;
+    border: 2px solid #ccc;
+}
+
+input[placeholder]{
+    padding-left: 20px;
+    font-size: 14px;
+    font-family: 'Poppins';
+    font-weight: bold;
+}
+
+input:focus {
+    outline: none;
+}
+
+.navbar2-up ul {
+    list-style-type: none;
+    display: flex;
+}
+
+.navbar2-up li {
+    padding: 10px;
+    margin-right: 10px;
+}
+
+.navbar2-down {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: -50px;
+    margin-bottom: 50px;
+}
+
+.navbar2-down ul {
+    list-style-type: none;
+    display: flex;
+}
+
+.navbar2-down li {
+    padding: 10px;
+    margin-right: 10px;
+}
+
+.deals {
+    color: red;
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+    height: 100%;
+}
+
+.image {
+    width: 100%;
+    background-image: url(//media.gamestop.com/i/gamestop/Summer_Sale_Hero_M_CTA.jpeg);
+    background-position: top;
+    background-repeat:  no-repeat;
+    background-size: cover;
+    height: 300px;
+    margin-top: 20px;
+}
+
+.grid {
+    margin-top: 60px;
+    width: 1200px;
+    height: 900px;
+    background-color: #fff;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-gap: 50px;
+    margin-left: 5px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.items {
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+}
+
+.deal {
+    background: url(//media.gamestop.com/i/gamestop/DOTD_Halfblade_New.jpeg);
+    background-position: center;
+    margin-top: 100px;
+    width: 100%;
+    height: 150px;
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    border-top: 2px solid #ccc;
+    margin-top: 50px;
+}
+
+.footeritems{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.footeritems i {
+    margin-left: 30px;
+    cursor: pointer;
+}
+
+.footeritems ul {
+    list-style-type: none;
+    margin-top: 20px;
+}
+
+.footeritems li {
+    margin: 5px 5px;
+}
+
+.botnavbar-container {
+    width: 100%;
+    background-color: black;
+    height: 100px;
+    color: #fff;
+    display: flex;
+    margin-top: 100px;
+}
+.botnavbar {
+    width: 1000px;
+    margin: 0 auto;
+    background-color: black;
+    color: #fff;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.botnavbar ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+}
+
+.botnavbar li {
+    margin-right: 20px;
+}
